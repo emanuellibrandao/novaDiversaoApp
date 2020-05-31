@@ -1,0 +1,72 @@
+.banner{
+    position: relative;
+    background: url('https://image.tmdb.org/t/p/w533_and_h300_bestv2/sd4xN5xi8tKRPrJOWwNiZEile7f.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 180px;
+    width: 100%;
+    padding: 15px;
+
+    .info-banner{
+        position: absolute;
+        bottom: 15px;
+
+        h2,
+         p{
+            color: #ffffff;
+        }
+
+        h2{
+            font-size: 20px;
+            margin: 0;
+            font-weight: normal;
+        }
+
+        p{
+         font-size: 12px;
+         margin: 0;
+         margin-bottom: 15px;
+        }
+    }
+}
+
+ion-grid{
+    position: absolute;
+    top: 180px;
+
+    h1{
+        font-size: 20px;
+        font-weight: bolder;
+        margin-bottom: 5px;
+        color: #7e7a7a;
+    
+        
+    }
+}
+
+.info{
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+   
+    .tipo{
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+    .duracao{
+        margin-left: 15px;
+    }
+
+    p{
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+}
+
